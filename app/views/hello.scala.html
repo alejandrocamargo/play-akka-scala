@@ -1,0 +1,17 @@
+@(message: String, ls: List[String])
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <title>Test from Scala - Play - Akka</title>
+</head>
+<body>
+    <h1>@message</h1>
+    <ul>
+    @for(e <- ls) {
+        <li>@e</li>
+    }
+    </ul>
+
+</body>
+</html>
